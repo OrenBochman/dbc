@@ -1,0 +1,18 @@
+---
+layout: portfolio
+title: Dvora Bochman's Gallery Of The Big-five
+description: big-five gallery page
+location: 
+  - home 
+  - gallery 
+  - big-five
+---
+
+<div class="row small-up-2 medium-up-3 large-up-4">
+  {{#repeat 12}}
+  <div class="column">
+    <img class="thumbnail" src="http://lorempixel.com/550/550/food/{{@index}}">
+    <h5>untitled {{ @index }}</h5>
+  </div>
+  {{/repeat}}  
+</div>

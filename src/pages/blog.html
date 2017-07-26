@@ -1,0 +1,105 @@
+---
+layout: agency
+datePublished : 2017/6/10
+location: 
+ - home 
+ - blog 
+authors:
+ - Skyler
+ - Jesse
+ - Mike
+ - Holly 
+catagories:
+ - painting
+ - curation
+ - sculpting
+ - events
+ - exhibitions
+ - video art
+posts:
+ - title : Awesome blog post title 1
+   date : 2017/6/10
+   thumbnail : http://lorempixel.com/850/350/nature/1
+   author : Dvora Bochman
+   comments : 4
+   category : exhibitions
+   top: Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue
+        lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
+   featured: true
+ - title : Awesome blog post title 2
+   date : 2017/6/5
+   thumbnail : http://lorempixel.com/850/350/nature/2
+   author : Dvora Bochman
+   comments : 3
+   category : events
+   top : Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue
+        lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
+   featured: false
+ - title : Awesome blog post title 3    
+   date : 2017/5/22
+   thumbnail : http://lorempixel.com/850/350/nature/3
+   author : Dvora Bochman
+   comments : 6
+   category : painting
+   top : Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue
+        lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
+   featured: false
+---
+<div class="callout large primary">
+  <div class="row column text-center">
+    <h1>Our Blog</h1>
+  </div>
+</div>
+
+<div class="row" id="content">
+
+  <div class="medium-8 columns">
+    {{#each posts}}
+    <div class="blog-post">
+      <h3>{{title}} <small>{{date}}</small></h3>
+      <img class="thumbnail" src="{{thumbnail}}">
+      <p>{{top}}</p>
+      <div class="callout">
+        <ul class="menu simple">
+          <li><a href="#">Author: {{author}}</a></li>
+          <li><a href="#">Comments: {{comments}}</a></li>
+          <li><a href="#">Category: {{category}}</a></li>
+        </ul>
+      </div>
+    </div>
+    {{> blog-jsonld }}
+    {{/each}}
+
+  </div>
+  <div class="medium-3 columns" data-sticky-container>
+    <div class="sticky" data-sticky data-anchor="content">
+      <h4>Categories</h4>
+      <ul>
+        {{#each catagories}}<li><a href="#">{{ this }}</a></li>{{/each}}
+      </ul>
+
+      <h4>Authors</h4>
+      <ul>
+        {{#each authors}}<li><a href="#">{{ this }}</a></li>{{/each}} 
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row column">
+  <ul class="pagination" role="navigation" aria-label="Pagination">
+    <li class="disabled">Previous</li>
+    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+    <li><a href="#" aria-label="Page 2">2</a></li>
+    <li><a href="#" aria-label="Page 3">3</a></li>
+    <li><a href="#" aria-label="Page 4">4</a></li>
+    <li class="ellipsis"></li>
+    <li><a href="#" aria-label="Page 12">12</a></li>
+    <li><a href="#" aria-label="Page 13">13</a></li>
+    <li><a href="#" aria-label="Next page">Next</a></li>
+  </ul>
+</div>
+{{> page-jsonld }}

@@ -1,0 +1,19 @@
+---
+name       : name
+layout     : portfolio
+title      : Dvora Bochmans Gallery Of Birds
+description: birds gallery Page
+location: 
+  - home 
+  - gallery 
+  - birds
+---
+
+<div class="row small-up-2 medium-up-3 large-up-4">
+  {{#repeat 12}}
+  <div class="column">
+    <img class="thumbnail" src="http://lorempixel.com/550/550/food/{{@index}}">
+    <h5>untitled {{ @index }}</h5>
+  </div>
+  {{/repeat}}  
+</div>

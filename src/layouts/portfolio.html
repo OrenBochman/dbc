@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    {{> metadata}}
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel='stylesheet' type='text/css'> {{> ga}} {{> gtm-head}}
+  </head>
+  <body>
+  {{> gtm-body}}
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+      <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+        <div class="row column">
+          <br>
+          <img class="thumbnail" src="http://lorempixel.com/g/550/350/people/">
+          <h5>Dvora Bochman</h5>
+          <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare
+            ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Sed molestie augue sit amet leo.</p>
+        </div>
+      </div>
+ 
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div class="title-bar hide-for-large">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="my-info"></button>
+            <span class="title-bar-title">Dvora Bochman</span>
+          </div>
+        </div>
+        <div class="callout primary">
+          <div class="row column">
+            <h1>This is the portfolio of a versetile artist.</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui
+              sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla.</p>
+          </div>
+        </div>
+
+        {{> breadcrumb }} 
+        {{> header }}        
+        {{> body}} 
+        {{> contact-me }}
+        </div>      
+      </div>
+    </div>
+      {{> footer}}
+    <script src="{{root}}assets/js/app.js"></script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+  </body>
+</html>

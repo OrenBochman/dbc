@@ -1,0 +1,16 @@
+<nav aria-label="You are here:" role="navigation">
+  <ul class="breadcrumbs">
+    {{#each location}}
+      {{#if @first}}
+      <li><a href="/index.html"> {{ this }}</a></li>
+      {{else}}
+        {{#if @last}}
+          <li><span class="show-for-sr">Current: </span> {{ this }}</li>
+        {{else}}
+          <li>{{ this }}</li>
+        {{/if}}        
+      {{/if}}    
+    {{/each}}    
+  </ul>
+</nav>
+
