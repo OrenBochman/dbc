@@ -23,9 +23,7 @@ posts:
    author : Dvora Bochman
    comments : 4
    category : exhibitions
-   top: Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue
-        lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
-        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
+   top: 3
    featured: true
  - title : Awesome blog post title 2
    date : 2017/6/5
@@ -33,9 +31,7 @@ posts:
    author : Dvora Bochman
    comments : 3
    category : events
-   top : Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue
-        lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
-        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
+   top : 4
    featured: false
  - title : Awesome blog post title 3    
    date : 2017/5/22
@@ -43,9 +39,7 @@ posts:
    author : Dvora Bochman
    comments : 6
    category : painting
-   top : Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue
-        lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
-        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
+   top : 3
    featured: false
 ---
 <div class="callout large primary">
@@ -60,8 +54,9 @@ posts:
     {{#each posts}}
     <div class="blog-post">
       <h3>{{title}} <small>{{date}}</small></h3>
-      <img class="thumbnail" src="{{thumbnail}}">
-      <p>{{top}}</p>
+      <!--img class="thumbnail" src="{{thumbnail}}"-->
+      {{#pixum 300 300 @index}}{{/pixum}}
+      <p>{{#lorem 5}}{{/lorem}}</p>
       <div class="callout">
         <ul class="menu simple">
           <li><a href="#">Author: {{author}}</a></li>
@@ -89,17 +84,6 @@ posts:
   </div>
 </div>
 
-<div class="row column">
-  <ul class="pagination" role="navigation" aria-label="Pagination">
-    <li class="disabled">Previous</li>
-    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-    <li><a href="#" aria-label="Page 2">2</a></li>
-    <li><a href="#" aria-label="Page 3">3</a></li>
-    <li><a href="#" aria-label="Page 4">4</a></li>
-    <li class="ellipsis"></li>
-    <li><a href="#" aria-label="Page 12">12</a></li>
-    <li><a href="#" aria-label="Page 13">13</a></li>
-    <li><a href="#" aria-label="Next page">Next</a></li>
-  </ul>
-</div>
-{{> page-jsonld }}
+{{> paginator id='blogList'}}
+
+{{> page-jsonld }} 
