@@ -1,0 +1,24 @@
+- title : Awesome blog post title 1
+  date : 2017/6/10
+  thumbnail : http://lorempixel.com/850/350/nature/1
+  author : Dvora Bochman
+  comments : 4
+  category : exhibitions
+  top: lorem ipsum
+  featured: true
+- title : Awesome blog post title 2
+  date : 2017/6/5
+  thumbnail : http://lorempixel.com/850/350/nature/2
+  author : Dvora Bochman
+  comments : 3
+  category : events
+  top : Quibusdam qui perferendis ullam. Vero eligendi molestiae voluptatem officiis ipsa facere omnis maxime. Sit enim et et dignissimos veniam. Sed illum aut eaque sint quis. Eos incidunt voluptatem quos.
+  featured: false
+- title : Awesome blog post title 3    
+  date : 2017/5/22
+  thumbnail : http://lorempixel.com/850/350/nature/3
+  author : Dvora Bochman
+  comments : 6
+  category : painting
+  top : Quibusdam qui perferendis ullam
+  featured: false

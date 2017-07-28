@@ -1,46 +1,10 @@
 ---
 layout: agency
 datePublished : 2017/6/10
+title: Advanced Blog
 location: 
  - home 
  - blog 
-authors:
- - Skyler
- - Jesse
- - Mike
- - Holly 
-catagories:
- - painting
- - curation
- - sculpting
- - events
- - exhibitions
- - video art
-posts:
- - title : Awesome blog post title 1
-   date : 2017/6/10
-   thumbnail : http://lorempixel.com/850/350/nature/1
-   author : Dvora Bochman
-   comments : 4
-   category : exhibitions
-   top: 3
-   featured: true
- - title : Awesome blog post title 2
-   date : 2017/6/5
-   thumbnail : http://lorempixel.com/850/350/nature/2
-   author : Dvora Bochman
-   comments : 3
-   category : events
-   top : 4
-   featured: false
- - title : Awesome blog post title 3    
-   date : 2017/5/22
-   thumbnail : http://lorempixel.com/850/350/nature/3
-   author : Dvora Bochman
-   comments : 6
-   category : painting
-   top : 3
-   featured: false
 ---
 <div class="callout large primary">
   <div class="row column text-center">
@@ -52,20 +16,8 @@ posts:
 
   <div class="medium-8 columns">
     {{#each posts}}
-    <div class="blog-post">
-      <h3>{{title}} <small>{{date}}</small></h3>
-      <!--img class="thumbnail" src="{{thumbnail}}"-->
-      {{#pixum 300 300 @index}}{{/pixum}}
-      <p>{{#lorem 5}}{{/lorem}}</p>
-      <div class="callout">
-        <ul class="menu simple">
-          <li><a href="#">Author: {{author}}</a></li>
-          <li><a href="#">Comments: {{comments}}</a></li>
-          <li><a href="#">Category: {{category}}</a></li>
-        </ul>
-      </div>
-    </div>
-    {{> blog-jsonld }}
+      {{> blog-post }}
+      {{> blog-jsonld }}
     {{/each}}
 
   </div>
