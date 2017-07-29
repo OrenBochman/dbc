@@ -1,5 +1,8 @@
+"use strict";
+
 import $ from 'jquery';
 import whatInput from 'what-input';
+import {dataLayer} from './dl';
 //import * as analytics from 'multiple-trackers.js';
 
 window.$ = $;
@@ -13,7 +16,6 @@ import Foundation from 'foundation-sites';
 
 $(document).foundation();
 
-
-
-
+var dl= new dataLayer();
+dl.getPosts(4);
 

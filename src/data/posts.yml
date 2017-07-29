@@ -1,24 +1,336 @@
 - title : Awesome blog post title 1
-  date : 2017/6/10
+  date : 2017/06/10
   thumbnail : http://lorempixel.com/850/350/nature/1
   author : Dvora Bochman
-  comments : 4
+  comment-count : 4
   category : exhibitions
-  top: lorem ipsum
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
   featured: true
+  comments: 
+   - comment: Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+     user: alice
+     date: 2017/06/23
+   - comment: Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+     user: bob
+     date: 2017/06/22
 - title : Awesome blog post title 2
-  date : 2017/6/5
+  date : 2017/06/05
   thumbnail : http://lorempixel.com/850/350/nature/2
-  author : Dvora Bochman
-  comments : 3
+  author : Oren Bochman
+  comment-count : 3
   category : events
-  top : Quibusdam qui perferendis ullam. Vero eligendi molestiae voluptatem officiis ipsa facere omnis maxime. Sit enim et et dignissimos veniam. Sed illum aut eaque sint quis. Eos incidunt voluptatem quos.
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
   featured: false
+  comments: 
+   - comment: Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+     user: alice
+   - comment: Asperiores nesciunt odit, ex.
+     user: bob
+   - comment: Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! 
+     user: alice
+   - comment: Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem?
+     user: bob
+   - comment: Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? 
+     user: chuck
+
 - title : Awesome blog post title 3    
   date : 2017/5/22
   thumbnail : http://lorempixel.com/850/350/nature/3
   author : Dvora Bochman
-  comments : 6
+  comment-count : 4
   category : painting
-  top : Quibusdam qui perferendis ullam
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
   featured: false
+
+- title : Awesome blog post title 4
+  date : 2017/5/22
+  thumbnail : http://lorempixel.com/850/350/nature/4
+  author : Dvora Bochman
+  comment-count : 2
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+
+- title : Awesome blog post title 5    
+  date : 2016/05/22
+  thumbnail : http://lorempixel.com/850/350/nature/5
+  author : Zvi Bochman
+  comment-count : 6
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+  comments: 
+   - comment: Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+     user: alice
+     date : 2016/01/22
+   - comment: Asperiores nesciunt odit, ex.
+     user: bob
+   - comment: Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! 
+     user: chuck
+   - comment: Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem?
+     user: don
+   - comment: Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? 
+     user: fred
+
+- title : Awesome blog post title 6    
+  date : 2017/5/22
+  thumbnail : http://lorempixel.com/850/350/nature/6
+  author : Roni Bochman Ronen
+  comment-count : 6
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+  comments: 
+   - comment: Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! 
+     user: chuck
+   - comment: Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. 
+     user: don
+   - comment: Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? 
+     user: fred
+
+- title : Awesome blog post title 7    
+  date : 2017/5/22
+  thumbnail : http://lorempixel.com/850/350/nature/7
+  author : Dvora Bochman
+  comment-count : 6
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+
+- title : Awesome blog post title 8   
+  date : 2017/05/22
+  thumbnail : http://lorempixel.com/850/350/nature/8
+  author : Dvora Bochman
+  comment-count : 0
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+
+- title : Awesome blog post title 9   
+  date : 2017/05/22
+  thumbnail : http://lorempixel.com/850/350/nature/9
+  author : Dvora Bochman
+  comment-count : 0
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+
+- title : Awesome blog post title 10   
+  date : 2017/5/22
+  thumbnail : http://lorempixel.com/850/350/nature/10
+  author : Dvora Bochman
+  comment-count : 0
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+
+- title : Awesome blog post title 11
+  date : 2017/05/22
+  thumbnail : http://lorempixel.com/850/350/animals/1
+  author : Roni Bochman Ronen
+  comment-count : 0
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+  comments: 
+   - comment: Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+     user: alice
+   - comment: Asperiores nesciunt odit, ex.
+     user: bob
+
+- title : Awesome blog post title 12
+  date : 2016/02/04
+  thumbnail : http://lorempixel.com/850/350/animals/2
+  author : Dvora Bochman
+  comment-count : 6
+  category : Exhibitions
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, placeat soluta expedita quibusdam, maiores nulla beatae sequi adipisci repellat libero, labore quisquam hic! Minima impedit dolorum, distinctio laborum expedita consequuntur!
+   - Nemo iusto officiis animi molestiae placeat id nisi voluptatem quae repellat accusantium quasi omnis dolorem voluptas, eum? Aspernatur debitis eum dignissimos autem quasi quos amet unde ipsa, corporis repudiandae sit.
+   - Veniam accusamus molestiae adipisci hic pariatur sit doloremque illum nostrum animi, id laboriosam consequatur est impedit provident, iusto quaerat minus dolor explicabo quae magnam voluptatem consequuntur. Quia provident veniam eaque!
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+  comments: 
+   - comment: Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+     user: alice
+     date : 2016/02/12
+   - comment: Asperiores nesciunt odit, ex.
+     user: bob
+     date : 2016/02/23
+
+- title : Awesome blog post title 13
+  date : 2016/03/22
+  thumbnail : http://lorempixel.com/850/350/animals/3
+  author : Zvi Bochman
+  comment-count : 6
+  category : painting
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Asperiores nesciunt odit, ex. Recusandae eius nemo iusto ducimus. Quam dicta eveniet, minus beatae, saepe quasi debitis illo quia sapiente eligendi molestiae expedita id adipisci laudantium, temporibus. Voluptates, suscipit, sapiente.
+   - Eveniet eius eligendi quo, doloribus iure dolorem, fugiat non quod provident officia rerum dolore eaque obcaecati, error pariatur quae ipsa! Pariatur nobis at vitae, dolores ad minus recusandae numquam iure.
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+  comments: 
+   - comment: Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+     user: alice
+     date: 2017/5/23
+   - comment: Asperiores nesciunt odit, ex.
+     user: bob
+     date: 2017/5/22
+- title : Awesome blog post title 14
+  date : 2016/01/22
+  thumbnail : http://lorempixel.com/850/350/animals/4
+  author : Oren Bochman
+  comment-count : 6
+  category : Video art
+  top : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error perspiciatis assumenda sequi et veniam nesciunt unde quidem corporis temporibus fugit cumque numquam repellat, repudiandae praesentium mollitia minima ad optio odit.
+  more: 
+   - Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+   - Quos voluptatem perspiciatis in nemo quisquam incidunt aliquam totam, earum nobis fugit eaque delectus sed voluptates, molestiae at fugiat nihil similique eius rerum veniam cupiditate, dicta maiores quidem fuga modi?
+   - Eius, aliquid! Excepturi optio molestiae velit est consectetur enim, non quae vero nihil. Deleniti exercitationem fuga totam nobis, quaerat ratione rem. Ipsam adipisci corporis blanditiis repellendus omnis distinctio, consequatur. Earum?
+   - Maiores nobis magni, cupiditate quos amet, impedit quam possimus blanditiis magnam, eos accusamus velit! Iure architecto, adipisci reprehenderit autem magnam nobis debitis error laudantium dignissimos et asperiores culpa, veniam consectetur.
+   - Ratione iusto voluptatibus magnam ex quas ut qui ipsam, similique minus odio distinctio hic? Dolorem architecto temporibus voluptatum natus, nemo magni autem eos quod ex inventore ab, quo labore quaerat!
+   - Expedita sunt facilis minus! Nesciunt modi ipsum quis reprehenderit quam quas facere illo possimus blanditiis amet nostrum voluptatem voluptas, quisquam aliquid harum cum beatae, laborum ex veritatis perferendis ducimus? Cum?
+  featured: false
+  comments: 
+   - comment: Voluptatum nemo fugit non accusamus inventore, est cupiditate aperiam, recusandae maiores repudiandae consectetur illo soluta pariatur. Quae, suscipit enim debitis voluptate eaque, alias iusto laudantium, cupiditate similique perspiciatis in amet.
+     user: alice
+     date : 2016/01/21
+   - comment: Asperiores nesciunt odit, ex.
+     user: bob
+     date : 2016/01/26

@@ -1,12 +1,22 @@
-    <div class="blog-post">
-      <h3>{{title}} <small>{{date}}</small></h3>
-      {{#pixum 300 300 @index}}{{/pixum}}
-      <p>{{top}}</p>
-      <div class="callout">
-        <ul class="menu simple">
-          <li><a href="#">Author: {{author}}</a></li>
-          <li><a href="#">Comments: {{comments}}</a></li>
-          <li><a href="#">Category: {{category}}</a></li>
+    <div id='post_{{@index}}' class='blog-post'>
+      <h3 id='title_{{@index}}'>{{title}} <small>{{date}}</small></h3>
+      <img id='thumb_{{@index}}' class='thumbnail'  src='{{thumbnail}}' >
+      <p id='top_{{@index}}'>{{top}} <a href='#0' data-toggle='more_{{@index}}'> ... </a></p>
+        <div id='more_{{@index}}' class='hide' data-toggler='.hide' >
+          {{#each more}}
+          <p>{{this}}</p>
+          {{/each}}
+        </div>
+      <div id='meta_{{@index}}' class='callout'>
+        <ul class='menu simple'>
+          <li><a href='#0' id='author_{{@index}}'>Author: {{author}}</a></li>
+          <li><a href='#0' id='category_{{@index}}'>Category: {{category}}</a></li>
+          <li><a href='#0' id='comment_count_{{@index}}' data-toggle='comments_{{@index}}'>Comments: {{length comments}} </a></li>
         </ul>
+      </div>
+      <div id='comments_{{@index}}' class='callout hide' data-toggler='.hide'>
+        {{#each comments}}
+          <p>{{comment}} - @{{user}}</p>
+        {{/each}}
       </div>
     </div>
