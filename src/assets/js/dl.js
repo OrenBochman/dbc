@@ -15,36 +15,51 @@ export class dataLayer {
     getAllProducts() {
 
         return {
-            NewProducts: getNewProducts(4),
-            UpSaleProducts: getUCrossSaleProducts(12),
-            CrossSaleProducts: getCrossSaleProducts(6)
-        };
+            NewProducts: this.getNewProducts(4),
+            UpSaleProducts: this.getUpSaleProducts(12),
+            CrossSaleProducts: this.getCrossSaleProducts(6)
+        }
     }
 
     getNewProducts(count) {
-        return _getProductsMock(count)
+        return this._getProductsMock(count)
     }
 
     getUpSaleProducts(count) {
-        return _getProductsMock(count)
+        return this._getProductsMock(count)
     }
 
     getCrossSaleProducts(count) {
-        return _getProductsMock(count)
+        return this._getProductsMock(count)
     }
 
     getTopProducts(count) {
-        return _getProductsMock(count)
+        return this._getProductsMock(count)
     }
 
     _getProductsMock(n) {
 
         let products = [];
+        let prodCategories = ["hardware","software","car","services", "insurance","media","travel","retail"];
+        let carriers = ["British Airways", "Delta","KLM","North Western","El Al"];
+        let brands = ["Partner", "Intel","Ikea","BMW","El Al","IBM","Gap","Nike"];
         for (var index = 0; index < n; index++) {
-            product = {
-                price : Faker.product.price.between(10,300),
-                name:   Faker.product.name(),
-                sku:    `${Faker.random.number.between(10,99)}-${Faker.random.number.between(1000,9999)}-${Faker.random.number.between(10,99)}`
+            let product = {
+                category     : prodCategories[Faker.random.number(prodCategories.length - 1)],
+                cost_price   : Faker.random.number({min:10,max:500}),
+                cost_plan    : Faker.random.number({min:10,max:500}),
+                cost_tax     : Faker.random.number({min:10,max:100}),
+                cost_shipping: Faker.random.number({min:10,max:100}),
+                name         : Faker.commerce.productName(),
+                sku          : `${Faker.random.number({min:100,max:999})}-${Faker.random.number({min:10000,max:99999})}-${Faker.random.number({min:10,max:99})}`,
+                thumb_small  : `http://lorempixel.com/100/100/nature/${index % 9}/`,
+                thumb_med    : `http://lorempixel.com/300/400/nature/${index % 9}/`,
+                thumb_large  : `http://lorempixel.com/300/400/nature/${index % 9}/`,
+                brand        : brands[Faker.random.number(brands.length - 1)],
+                tra_orig     : Faker.address.city(),
+                tra_dest     : Faker.address.city(),
+                tra_carrier  : carriers[Faker.random.number(carriers.length - 1)],
+
             };
 
             products.push(product)
@@ -52,6 +67,46 @@ export class dataLayer {
         }
         return products;
     }
+
+    getPageData(){
+
+        return {
+            pages    : this.getPages(),
+            services : this.getServices(),
+            port     : this.getProtfolio(),
+            gallery  : this.getGallery(),
+        };
+    }
+
+    getPages(){
+        let pages = [];
+        let page= {
+            title       : "the title",
+            keywords    : ["art","curation","paintings"],
+            description : "genertic page",
+            template    : "default.html",
+            location    : ["/"],
+            data        : {}
+        };
+        
+        for (var i = 0; i<10; i++) {
+            pages.push(page)            
+        }
+        return pages;
+
+    }
+
+    getAllBlog(start, end, n, filter){
+
+        return {
+            categories : this.getCategories(),
+            authors    : this.getAuthors(),            
+            posts      : this.getPosts(start, end, n, filter),
+            post_count : n
+        };
+
+    }
+
     getAuthors() {
         return this._getAuthorsMock();
     }
@@ -115,6 +170,4 @@ export class dataLayer {
         }
         return posts;
     }
-
-
 }

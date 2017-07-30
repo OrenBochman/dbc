@@ -17,12 +17,8 @@ import Foundation from 'foundation-sites';
 $(document).foundation();
 
 var dl= new dataLayer();
-var posts =dl.getPosts(new Date(2015,3,21),new Date(2017,6,25),10,null);
-console.log(posts);
-var authors = dl.getAuthors();
-console.log(authors);
-var categories = dl.getCategories();
-console.log(categories);
+var blog =dl.getAllBlog(new Date(2015,3,21),new Date(2017,6,25),10,null);
+console.log(blog);
 var products = dl.getAllProducts()
 console.log(products);
 
